@@ -21,4 +21,8 @@ export class DestinationPage {
     console.log('ionViewDidLoad DestinationPage');
   }
 
+  ClosePage(){
+    this.navCtrl.pop();
+  }
+
 }
