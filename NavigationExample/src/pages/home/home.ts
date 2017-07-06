@@ -14,6 +14,7 @@ export class HomePage {
 
   GoToDestiny(){
     this.navCtrl.push(DestinationPage);
+    //Usando Navigation Directives
+    //destPage = DestinationPage;
   }
-
 }
